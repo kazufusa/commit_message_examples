@@ -32,3 +32,8 @@ This is a shakyo text of https://gist.github.com/mono0926/e6ffd032c384ee4c1cef5a
 - Use weak pointer instead of manual bookkeeping
 - Change all uses of 'CInt' to 'Int32' in the SDK overlay
 - Change integer#year to return a Fixnum instead of a Float to improve consistency
+
+## Add supports
+
+Add support for closure contexts to readMetadataFromInstance()
+Add support for activating and deactivating package-specific keymaps
