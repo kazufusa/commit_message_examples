@@ -35,5 +35,11 @@ This is a shakyo text of https://gist.github.com/mono0926/e6ffd032c384ee4c1cef5a
 
 ## Add supports
 
-Add support for closure contexts to readMetadataFromInstance()
-Add support for activating and deactivating package-specific keymaps
+- Add support for closure contexts to readMetadataFromInstance()
+- Add support for activating and deactivating package-specific keymaps
+- Add support for launching HTML files directly
+- Add support for allocators that require tensors with zero
+- Make it possible to call reflect multiple times
+- Make it possible to set a data type for variables that come out of constants
+- Allow atom-pane to be shrunk independently of its contents' width
+- Allow null textEditorComponent::domNode during visibility check
