@@ -43,3 +43,20 @@ This is a shakyo text of https://gist.github.com/mono0926/e6ffd032c384ee4c1cef5a
 - Make it possible to set a data type for variables that come out of constants
 - Allow atom-pane to be shrunk independently of its contents' width
 - Allow null textEditorComponent::domNode during visibility check
+
+## Use something
+
+- Use const for util require
+- Use FoldingSetNode for ProtocolType
+- Use unique text editor title in window and tab titles
+- Use an empty object if metadata is ~null
+- Use target_link_libraries for fat executable dependencies
+- Use existing flatMapToOptionalTests dataset
+
+## Improve for better implementation
+
+Make the clone function more generic
+Make IO faster for v8 compile cache
+Make model constructor argument to addViewProvider optional
+Make Browser::Quit more robust
+Make Menu.getApplicationMenu() public
